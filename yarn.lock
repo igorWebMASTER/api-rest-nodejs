@@ -57,6 +57,14 @@
     "ajv-formats" "^2.1.1"
     "fast-uri" "^2.0.0"
 
+"@fastify/cookie@^8.3.0":
+  "integrity" "sha512-P9hY9GO11L20TnZ33XN3i0bt+3x0zaT7S0ohAzWO950E9PB2xnNhLYzPFJIGFi5AVN0yr5+/iZhWxeYvR6KCzg=="
+  "resolved" "https://registry.npmjs.org/@fastify/cookie/-/cookie-8.3.0.tgz"
+  "version" "8.3.0"
+  dependencies:
+    "cookie" "^0.5.0"
+    "fastify-plugin" "^4.0.0"
+
 "@fastify/deepmerge@^1.0.0":
   "integrity" "sha512-J8TOSBq3SoZbDhM9+R/u77hP93gz/rajSA+K2kGyijPpORPWUXHUpTaleoj+92As0S9uPRP7Oi8IqMf0u+ro6A=="
   "resolved" "https://registry.npmjs.org/@fastify/deepmerge/-/deepmerge-1.3.0.tgz"
@@ -1243,6 +1251,11 @@
   "integrity" "sha512-cIusKBIt/R/oI6z/1nyfe2FvGKVTohVRfvkOhvx0nCEW+xf5NoCXjAHcWp93uOUBchzYcsvPlrapAdX1uW+YGg=="
   "resolved" "https://registry.npmjs.org/fast-uri/-/fast-uri-2.2.0.tgz"
   "version" "2.2.0"
+
+"fastify-plugin@^4.0.0":
+  "integrity" "sha512-79ak0JxddO0utAXAQ5ccKhvs6vX2MGyHHMMsmZkBANrq3hXc1CHzvNPHOcvTsVMEPl5I+NT+RO4YKMGehOfSIg=="
+  "resolved" "https://registry.npmjs.org/fastify-plugin/-/fastify-plugin-4.5.0.tgz"
+  "version" "4.5.0"
 
 "fastify@^4.12.0":
   "integrity" "sha512-Hh2GCsOCqnOuewWSvqXlpq5V/9VA+/JkVoooQWUhrU6gryO9+/UGOoF/dprGcKSDxkM/9TkMXSffYp8eA/YhYQ=="

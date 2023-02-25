@@ -2,3 +2,4 @@ tmp/app.db
 node_modules
 db
 .env
+.env.test

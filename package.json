@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
-    "buld": "tsup src --out-dir build",
+    "build": "tsup src --out-dir build",
     "test": "npx vitest"
   },
   "keywords": [],
@@ -22,6 +22,7 @@
     "@types/supertest": "^2.0.12",
     "sqlite3": "^5",
     "supertest": "^6.3.3",
+    "tsup": "^6.6.3",
     "tsx": "^3.12.3",
     "typescript": "^4.9.5"
   },

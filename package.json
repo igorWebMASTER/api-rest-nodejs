@@ -1,11 +1,15 @@
 {
   "name": "api-rest",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=18"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
+    "buld": "tsup src --out-dir build",
     "test": "npx vitest"
   },
   "keywords": [],
@@ -16,6 +20,7 @@
     "@types/knex": "^0.16.1",
     "@types/node": "^18.13.0",
     "@types/supertest": "^2.0.12",
+    "sqlite3": "^5",
     "supertest": "^6.3.3",
     "tsx": "^3.12.3",
     "typescript": "^4.9.5"
@@ -25,7 +30,7 @@
     "dotenv": "^16.0.3",
     "fastify": "^4.12.0",
     "knex": "^2.4.2",
-    "sqlite3": "^5",
+    "pg": "^8.9.0",
     "vitest": "^0.28.5",
     "zod": "^3.20.6"
   }
